@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "muse-worker6",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-09",
+  "workers_dev": true,
+  "secrets": {
+    "required": ["PROXY_API_KEY"]
+  }
+}
